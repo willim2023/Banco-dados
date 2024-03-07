@@ -13,11 +13,11 @@ SELECT * FROM Matricula
 WHERE DataMatricula > '2024-02-01';
  
 -- Contar quantas disciplinas existem com carga horária maior que X
- SELECT COUNT(*) FROM Disciplina WHERE Horas > 40;
+ SELECT COUNT(*) AS QuantidadeDisciplina
+ FROM Disciplina 
+ WHERE Horas > 40;
  
 -- Contar quantas matrículas existem para cada curso
-
--- nao consegui concluir ainda tive duvidas de como elaborar o restante das atividades a maioria esqueci a logica.
  
 -- Contar quantas disciplinas cada professor leciona
  
@@ -26,3 +26,11 @@ WHERE DataMatricula > '2024-02-01';
 -- Combinar nome do curso e nome do aluno
  
 -- Contar quantos alunos se matricularam em cada curso
+ 
+
+
+
+
+
+
+
